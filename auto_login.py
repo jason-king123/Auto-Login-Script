@@ -8,9 +8,9 @@ def auto_login(input_lists):
     time.sleep(1)
     for input_str in input_lists:
         pyautogui.write(input_str)
-        time.sleep(0.1)
+        time.sleep(0.5)
         pyautogui.press('tab')
-        time.sleep(0.1)
+        time.sleep(0.5)
     pyautogui.press('enter')
 
 def list_accounts():
