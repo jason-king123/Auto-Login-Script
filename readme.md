@@ -26,7 +26,7 @@ You can create a `auto_login.bat` batch file on your desktop (Windows), and doub
 
 ```bat
 @echo off
-cd /d D:\code\python\scripts\auto_login\
+cd /d D:\code\python\scripts\auto_login\ REM (replace with your own directory)
 python auto_login.py
 pause
 ```

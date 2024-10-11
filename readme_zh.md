@@ -26,7 +26,7 @@
 
 ```bat
 @echo off
-cd /d D:\code\python\scripts\auto_login\
+cd /d D:\code\python\scripts\auto_login\ REM (切换到脚本所在目录)
 python auto_login.py
 pause
 ```
